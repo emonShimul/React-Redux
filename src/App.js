@@ -1,13 +1,11 @@
 import React from 'react';
-import User from './User'
-import logo from './logo.svg';
 import './App.css';
+import HomeContainer from './Containers/HomeContainer'
 
 function App() {
   return (
     <div className="App">
-      {/* <h1>App Component</h1> */}
-      <User data={{name:'Emon Shimul',age:28}}/>
+      <HomeContainer />
     </div>
   );
 }
