@@ -1,4 +1,4 @@
-import { ADD_TO_CART } from "../constants";
+import { ADD_TO_CART, REMOVE_TO_CART } from "../constants";
 
 const initialState = {
     cartData: []
@@ -11,7 +11,13 @@ export default function cartItems(state = [], action) {
             // console.warn('reducer', action);
             return [
                 ...state,
-                {cartData: action.data}
+                { cartData: action.data }
+            ]
+
+        case REMOVE_TO_CART:
+            state.pop()
+            return [
+                ...state,
             ]
 
         default:

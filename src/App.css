@@ -32,11 +32,16 @@
 .btn-wrapper button {
   background-color: red;
   border: 0px;
-  margin-top: 10px;
+  margin-top: -5px;
   padding: 10px;
   border-radius: 4px;
   color: #fff;
   box-shadow: #333 0px 1px 5px;
+}
+
+button.remove-cart-btn {
+  background-color: rebeccapurple;
+  margin-top: 8px;
 }
 
 .image-wrapper img {
