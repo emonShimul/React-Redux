@@ -1,9 +1,9 @@
-import { connect } from 'react-redux'
 import Home from "../Components/Home";
+import { connect } from 'react-redux'
 import { addToCart } from '../Services/Actions/action'
 
 const mapStateToProps = state => ({
-    cartData: state
+    // data: state.cartItems
 })
 
 const mapDispatchToProps = dispatch => ({

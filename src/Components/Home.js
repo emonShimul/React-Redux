@@ -4,9 +4,6 @@ function Home(props) {
     console.warn("Home props", props);
     return (
         <div>
-            <div className="add-to-cart">
-                <img src="https://thumbs.dreamstime.com/b/shopping-cart-icon-vector-eps-trolley-logo-web-icons-shop-button-182252657.jpg" />
-            </div>
             <h1>Home Component</h1>
             <div className="cart-wrapper">
                 <div className="image-wrapper item">
